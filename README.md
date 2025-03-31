@@ -19,3 +19,4 @@ Response: { success: boolean }
 { "email":"prabaabu62@gmail.com",
 "password":"abarna12#"
 }
+![alt image](https://github.com/abarna-RP/password-rest-frontend/blob/main/frontend.png2.png)
