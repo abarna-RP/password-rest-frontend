@@ -11,7 +11,7 @@ function Register() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post('http://localhost:5000/api/auth/register', { username, email, password });
+      await axios.post('https://password-reset-backend-2-7zf8.onrender.com/api/auth/register', { username, email, password });
       navigate('/login');
     } catch (error) {
       console.error(error);

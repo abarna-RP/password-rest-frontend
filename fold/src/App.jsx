@@ -5,8 +5,6 @@ import Login from './components/Login';
 import ForgotPassword from './components/ForgotPassword';
 import ResetPassword from './components/ResetPassword';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
-
 function App() {
   return (
     <Router>

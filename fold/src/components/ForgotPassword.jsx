@@ -6,7 +6,7 @@ function ForgotPassword() {
 const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post('http://localhost:5000/api/auth/forgot-password', { email });
+      await axios.post('https://password-reset-backend-2-7zf8.onrender.com/api/auth/forgot-password', { email });
       alert('Email sent with reset instructions.');
     } catch (error) {
       console.error(error);
